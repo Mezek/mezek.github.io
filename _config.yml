@@ -1,4 +1,4 @@
 name: Erik Bartoš
-markdown" kramdown
-
+timezone: Europe/Bratislava
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
