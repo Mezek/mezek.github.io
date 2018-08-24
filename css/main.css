@@ -41,3 +41,21 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+/* Content elements*/
+
+a#start-bst-link
+{
+	margin: auto;
+	display: block;
+	width: 250px;
+	height: 70px;
+	background: url("images/content/start_bst.png") top;
+	text-indent: -9999em;
+}
+
+a#start-bst-link:hover
+{
+	background-position: 0 -70px;
+}
