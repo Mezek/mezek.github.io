@@ -51,7 +51,7 @@ a#start-bst-link
 	display: block;
 	width: 250px;
 	height: 70px;
-	background: url("images/content/start_bst.png") top;
+	background: url("../images/content/start_bst.png") top;
 	text-indent: -9999em;
 }
 
