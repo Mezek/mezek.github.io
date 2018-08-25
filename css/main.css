@@ -39,8 +39,13 @@ ul.posts {
     font-size: 1.5em;
 }
 
-ul.posts li, ul.projects li {
+ul.posts li {
     list-style: none;
+}
+
+ul.projects li {
+    list-style: none;
+    display: inline;
 }
 
 
@@ -49,7 +54,7 @@ ul.posts li, ul.projects li {
 a#start-bst-link
 {
 	/*margin: auto;*/
-	/*display: block;*/
+	display: block;
 	width: 250px;
 	height: 70px;
 	background: url("../images/content/start_bst.png") top;
