@@ -48,8 +48,8 @@ ul.posts li, ul.projects li {
 
 a#start-bst-link
 {
-	margin: auto;
-	display: block;
+	/*margin: auto;*/
+	/*display: block;*/
 	width: 250px;
 	height: 70px;
 	background: url("../images/content/start_bst.png") top;
