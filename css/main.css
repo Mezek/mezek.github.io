@@ -46,7 +46,7 @@ ul.posts li {
 ul.projects li {
     list-style: none;
     display: inline-block;
-    margin: 15px;
+    padding: 15px;
 }
 
 
