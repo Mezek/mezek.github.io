@@ -92,4 +92,49 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	margin: 5px 15px 0px 0px;
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
+/* Content */
 
+.subheading {
+	font-size: 130%;
+	font-weight: 400;
+	margin: 0em 0 1em 0;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+ul.projects li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+/* Content elements*/
+
+a#start-bst-link
+{
+	/*margin: auto;*/
+	display: block;
+	width: 250px;
+	height: 70px;
+	background: url("../images/content/start_bst.png") top;
+	text-indent: -9999em;
+}
+
+a#start-bst-link:hover
+{
+	background-position: 0 -70px;
+}
