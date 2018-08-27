@@ -2,10 +2,18 @@ body {
 	margin: 60px auto;
 	width: 1024px;
 	font-family: 'Helvetica', 'Arial', 'Calibri', 'ff-enzo-web', 'Sans-Serif';
+	background-color: #fff;
+	line-height: 1.618;
+	font-size: 100%;
+	color: #333;
+}
+
+nav {
+    font-size: 1.05em;
+    margin-left: -0.9em;
 }
 
 nav ul, footer ul {
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	padding: 0px;
 	list-style: none;
 	font-weight: bold;
@@ -30,13 +38,43 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1 {
-	font-size: 3em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	clear: left;
-	font-size: 1.8em;
-	margin-bottom: 0.5em;
+	line-height: 1em;
 	margin-top: 0.32em;
-	line-height: 1.19em;
+	margin-bottom: 0.809em;
+}
+
+h1 {
+	font-size: 4.236em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 1.618;
+	font-weight: 700;
+	margin-bottom: 0.809em;
+}
+
+h3 {
+	font-size: 2.618em;
+	line-height: 1.2;
+	font-weight: 300;
+	text-align: center;
+	margin: 0.618em 0 1.236em;
+}
+
+h4 {
+	font-size: 1.618em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0.28em;
 }
 
 .subheading {
