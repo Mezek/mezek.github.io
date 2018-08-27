@@ -19,7 +19,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://mezek.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://mezek.github.io{{ post.id }}</id>
+			<id>http://mezek.github.io/blog{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
