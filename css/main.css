@@ -9,8 +9,9 @@ body {
 }
 
 nav {
-    font-size: 1.05em;
-    margin-left: -0.9em;
+	font-size: 1.05em;
+	margin-left: -0.9em;
+	margin-bottom: 1.5em;
 }
 
 nav ul, footer ul {
