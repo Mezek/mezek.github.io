@@ -7,10 +7,9 @@ blog: active
 contact: passive
 description: Blog for Erik Bartoš, a Physicists, Digital Publisher, Enthusiast, Sci-fi fan living and working in Slovakia.
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<div class="blog">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+		{% include post-list.html %}
+			
+	</div> <!-- .blog -->
+
