@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			{% include head.html %}
 			<!-- tracking code -->
 			{% include google-analytics-track.html %}
-			<!-- nothing -->
 		</head>
 		<body>
 			<nav>
@@ -19,14 +16,15 @@
 			</nav>
 			<div class="container">
 			
+			{% include header.html %}
+			
 			{{ content }}
 			
+			{% include footer.html %}
+			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:erik.bartos@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/mezek">github.com/mezek</a></li>
-				</ul>
-			</footer>
+			
+			{% include scripts.html %}
+			
 		</body>
 	</html>
