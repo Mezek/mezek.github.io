@@ -46,7 +46,7 @@ ul.posts li {
 ul.projects li {
     list-style: none;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     padding: 0 10px 0 0;
 }
 
