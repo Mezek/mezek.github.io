@@ -94,7 +94,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 /* Content */
 
-.content-container { min-height: 20em; }
+.content-container { min-height: 32em; }
 
 .subheading {
 	font-size: 130%;
