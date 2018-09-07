@@ -120,6 +120,13 @@ ul.projects li {
     padding: 0 15px 0 0;
 }
 
+ul.items-below li {
+    list-style: none;
+    display: block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
 .parent {
 	display: flex;
 	justify-content: center;
