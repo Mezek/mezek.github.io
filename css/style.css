@@ -124,7 +124,10 @@ ul.items-below li {
     list-style: none;
     display: block;
     vertical-align: middle;
-    margin: 7px;
+}
+
+.btn .items-below {
+	margin: 0 7px;
 }
 
 .parent {
