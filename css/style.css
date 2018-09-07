@@ -152,3 +152,8 @@ a#start-bst-link:hover
 {
 	background-position: 0 -70px;
 }
+
+.noUnderline a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
