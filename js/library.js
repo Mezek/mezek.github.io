@@ -47,4 +47,8 @@ function create_colorSwatch() {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-
+$('.obfuscate').hover(function(){
+	// here you can use whatever replace you want
+	var newHref = $(this).attr('href').replace('spam', 'sk');
+	$(this).attr('href', newHref);
+});
