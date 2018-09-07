@@ -105,28 +105,28 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 a, a img { outline: none; }
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+	margin: 20px auto 40px; 
+	font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+	list-style: none;
 }
 
 ul.projects li {
-    list-style: none;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 15px 0 0;
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 15px 0 0;
 }
 
 ul.items-below li {
-    list-style: none;
-    display: block;
-    vertical-align: middle;
+	list-style: none;
+	display: block;
+	vertical-align: middle;
 }
 
-.btn .items-below {
+ul.items-below li.btn {
 	margin: 0 7px;
 }
 
