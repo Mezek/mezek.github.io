@@ -153,7 +153,7 @@ a#start-bst-link:hover
 	background-position: 0 -70px;
 }
 
-.noUnderline a:hover, a:visited, a:link, a:active
+a.noUnderline:hover, a.noUnderline:visited, a.noUnderline:link, a.noUnderline:active
 {
     text-decoration: none;
 }
