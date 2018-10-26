@@ -117,6 +117,10 @@ ul.projects li {
     padding: 0 15px 0 0;
 }
 
+ul.nodots li {
+	list-style: none;
+}
+
 .parent {
 	display: flex;
 	justify-content: center;
