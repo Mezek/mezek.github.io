@@ -161,3 +161,7 @@ a.noUnderline:hover, a.noUnderline:visited, a.noUnderline:link, a.noUnderline:ac
 {
 	text-decoration: none;
 }
+
+.flag {
+	width: 20px;
+}
