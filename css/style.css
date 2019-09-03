@@ -164,5 +164,5 @@ a.noUnderline:hover, a.noUnderline:visited, a.noUnderline:link, a.noUnderline:ac
 
 .flag {
 	width: 20px;
-	padding-left: 8px;
+	margin-left: 8px;
 }
